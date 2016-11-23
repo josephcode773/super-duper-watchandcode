@@ -1,7 +1,7 @@
 // V8 - Escape from the console - Requirements:
 // There should be an li element for every todo  //done!
 // Each li element should contain .todoText  //done!
-// Each li element should show completed
+// Each li element should show completed  //done!
 
 var todoList = {
     todos: [],
@@ -102,15 +102,13 @@ var view = {
             var todoLi = document.createElement('li');
             var todo = todoList.todos[i];
 
-            // var todoTextWithCompletion = '';
-            // if (todo.completed === true)
-              // (x) todoText
-            // else
-              //  ( ) todoText
-            // todoLi.textContent = todoTextWithCompletion;
+            if (todo.completed === true) {
+                todoTextWithCompletion = '(x) ' + todo.todoText;
+            } else {
+                todoTextWithCompletion = '( ) ' + todo.todoText;
+            }
 
-
-            todoLi.textContent = todoList.todos[i].todoText;
+            todoLi.textContent = todoTextWithCompletion;
             todosUl.appendChild(todoLi);
         }
     }
