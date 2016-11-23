@@ -1,5 +1,5 @@
 // V8 - Escape from the console - Requirements:
-// There should be an li element for every todo
+// There should be an li element for every todo  //done!
 // Each li element should contain .todoText
 // Each li element should show completed
 
