@@ -1,6 +1,6 @@
 // V8 - Escape from the console - Requirements:
 // There should be an li element for every todo  //done!
-// Each li element should contain .todoText
+// Each li element should contain .todoText  //done!
 // Each li element should show completed
 
 var todoList = {
@@ -100,6 +100,7 @@ var view = {
         todosUl.innerHTML = '';
         for (var i = 0; i < todoList.todos.length; i++) {
             var todoLi = document.createElement('li');
+            todoLi.textContent = todoList.todos[i].todoText;
             todosUl.appendChild(todoLi);
         }
     }
