@@ -100,6 +100,16 @@ var view = {
         todosUl.innerHTML = '';
         for (var i = 0; i < todoList.todos.length; i++) {
             var todoLi = document.createElement('li');
+            var todo = todoList.todos[i];
+
+            // var todoTextWithCompletion = '';
+            // if (todo.completed === true)
+              // (x) todoText
+            // else
+              //  ( ) todoText
+            // todoLi.textContent = todoTextWithCompletion;
+
+
             todoLi.textContent = todoList.todos[i].todoText;
             todosUl.appendChild(todoLi);
         }
