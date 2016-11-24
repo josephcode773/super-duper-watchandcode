@@ -3,7 +3,7 @@
 // 2 - There should be a delete button for each todo.  //Done!
 // 3 - Each li should have an id that has the todo position.  //Done!
 // 4 - Delete buttons should have access to the todo id.  //Done!
-// 5 - Clicking delete should update todoList.todos and the DOM.
+// 5 - Clicking delete should update todoList.todos and the DOM.  //Done!
 
 var todoList = {
     todos: [],
@@ -61,10 +61,8 @@ var handlers = {
         changeTodoTextInput.value = "";
         view.displayTodos();
     },
-    deleteTodo: function() {
-        var deleteTodoPositionInput = document.getElementById("deleteTodoPositionInput");
-        todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);
-        deleteTodoPositionInput.value = "";
+    deleteTodo: function(position) {
+        todoList.deleteTodo(position);
         view.displayTodos();
     },
     toggleCompleted: function() {
@@ -105,11 +103,16 @@ var view = {
         deleteButton.textContent = "Delete";
         deleteButton.className = "deleteButton";
         return deleteButton;
+    },
+    setUpEventListeners: function () {
+        var todosUl = document.querySelector('ul');
+        todosUl.addEventListener('click', function (event) {
+            var elementClicked = event.target;
+            if (elementClicked.className === "deleteButton") {
+                handlers.deleteTodo(parseInt(elementClicked.parentNode.id));
+            }
+        });
     }
 };
 
-var todosUl = document.querySelector('ul');
-
-todosUl.addEventListener('click', function (event) {
-    console.log(event.target.parentNode.id);
-})
+view.setUpEventListeners();

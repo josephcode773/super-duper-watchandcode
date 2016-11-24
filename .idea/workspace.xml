@@ -47,9 +47,11 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +136,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript 1.8" />
-    <property name="SearchEverywhereHistoryKey" value="comment&#9;ACTION&#9;CommentByBlockComment" />
+    <property name="SearchEverywhereHistoryKey" value="delete&#9;null&#9;null&#10;comment&#9;ACTION&#9;CommentByBlockComment" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/watchandcodeie/index.html">
@@ -225,7 +227,7 @@
       <workItem from="1479874554081" duration="14071000" />
       <workItem from="1479946013487" duration="40000" />
       <workItem from="1479946168238" duration="8000" />
-      <workItem from="1479946439621" duration="8597000" />
+      <workItem from="1479946439621" duration="9923000" />
     </task>
     <task id="LOCAL-00001" summary="second commit!!">
       <created>1479937489481</created>
@@ -283,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479961411419</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="V8 - Click to Delete - Requirements:&#10;4 - Delete buttons should have access to the todo id.  //Done!">
+      <created>1479962242973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479962242973</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25195000" />
+    <option name="totallyTimeSpent" value="26521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="-5" width="847" height="741" extended-state="0" />
@@ -329,7 +338,8 @@
     <MESSAGE value="V8 - Click to Delete - Requirements:&#10;1 - There should be a way to create delete buttons.  //Done!" />
     <MESSAGE value="V8 - Click to Delete - Requirements:&#10;2 - There should be a delete button for each todo.  //Done!" />
     <MESSAGE value="V8 - Click to Delete - Requirements:&#10;3 - Each li should have an id that has the todo position.  //Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8 - Click to Delete - Requirements:&#10;3 - Each li should have an id that has the todo position.  //Done!" />
+    <MESSAGE value="V8 - Click to Delete - Requirements:&#10;4 - Delete buttons should have access to the todo id.  //Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8 - Click to Delete - Requirements:&#10;4 - Delete buttons should have access to the todo id.  //Done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,7 +368,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -382,7 +394,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +420,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,7 +446,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,9 +480,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
