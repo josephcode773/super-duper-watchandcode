@@ -1,9 +1,9 @@
 // V8 - Click to Delete - Requirements:
-// There should be a way to create delete buttons.  //Done!
-// There should be a delete button for each todo.
-// Each li should have an ide that has the todo position.
-// Delete buttons should have access to the todo id.
-// Clicking delete should update todoList.todos and the DOM.
+// 1- There should be a way to create delete buttons.  //Done!
+// 2 - There should be a delete button for each todo.  //Done!
+// 3 - Each li should have an ide that has the todo position.
+// 4 - Delete buttons should have access to the todo id.
+// 5 - Clicking delete should update todoList.todos and the DOM.
 
 var todoList = {
     todos: [],
@@ -95,6 +95,7 @@ var view = {
             }
 
             todoLi.textContent = todoTextWithCompletion;
+            todoLi.appendChild(this.createDeleteButton());
             todosUl.appendChild(todoLi);
         }
     },
