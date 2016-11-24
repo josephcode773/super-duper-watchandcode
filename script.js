@@ -1,5 +1,5 @@
 // V11 - Destroy all for loops - Requirements:
-// 1 - todoList.toggleAll should use forEach.
+// 1 - todoList.toggleAll should use forEach.  //done!
 // 2 - view.displayTodos should use forEach.
 
 var todoList = {
@@ -31,19 +31,13 @@ var todoList = {
             }
         });
 
-        // Requirement 1: If everything's true, make everything false.
-        if (completedTodos === totalTodos) {
-            this.todos.forEach(function (todo) {
+        this.todos.forEach(function (todo) {
+            if (completedTodos === totalTodos) {
                 todo.completed = false;
-            });
-
-            // Requirement 2: Otherwise, make everything true.
-        } else {
-            this.todos.forEach(function (todo) {
+            } else {
                 todo.completed = true;
-            });
-        }
-        
+            }
+        })
     }
 };
 

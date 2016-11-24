@@ -47,11 +47,9 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +225,7 @@
       <workItem from="1479874554081" duration="14071000" />
       <workItem from="1479946013487" duration="40000" />
       <workItem from="1479946168238" duration="8000" />
-      <workItem from="1479946439621" duration="12135000" />
+      <workItem from="1479946439621" duration="12753000" />
     </task>
     <task id="LOCAL-00001" summary="second commit!!">
       <created>1479937489481</created>
@@ -306,11 +304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479965136253</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="// V11 - Destroy all for loops - Requirements:&#10;// 1 - todoList.toggleAll should use forEach. //Refactoring...">
+      <created>1479966035917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1479966035917</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28733000" />
+    <option name="totallyTimeSpent" value="29351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="-5" width="847" height="741" extended-state="0" />
@@ -355,7 +360,8 @@
     <MESSAGE value="V8 - Click to Delete - Requirements:&#10;4 - Delete buttons should have access to the todo id.  //Done!" />
     <MESSAGE value="V8 - Click to Delete - Requirements:&#10;5 - Clicking delete should update todoList.todos and the DOM.  //Done!" />
     <MESSAGE value="// V11 - Destroy all for loops - Requirements:&#10;// 1 - todoList.toggleAll should use forEach.&#10;// 2 - view.displayTodos should use forEach." />
-    <option name="LAST_COMMIT_MESSAGE" value="// V11 - Destroy all for loops - Requirements:&#10;// 1 - todoList.toggleAll should use forEach.&#10;// 2 - view.displayTodos should use forEach." />
+    <MESSAGE value="// V11 - Destroy all for loops - Requirements:&#10;// 1 - todoList.toggleAll should use forEach. //Refactoring..." />
+    <option name="LAST_COMMIT_MESSAGE" value="// V11 - Destroy all for loops - Requirements:&#10;// 1 - todoList.toggleAll should use forEach. //Refactoring..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,9 +390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -410,9 +414,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,9 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,9 +462,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,11 +494,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
