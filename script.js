@@ -1,9 +1,6 @@
-// V8 - Click to Delete - Requirements:
-// 1- There should be a way to create delete buttons.  //Done!
-// 2 - There should be a delete button for each todo.  //Done!
-// 3 - Each li should have an id that has the todo position.  //Done!
-// 4 - Delete buttons should have access to the todo id.  //Done!
-// 5 - Clicking delete should update todoList.todos and the DOM.  //Done!
+// V11 - Destroy all for loops - Requirements:
+// 1 - todoList.toggleAll should use forEach.
+// 2 - view.displayTodos should use forEach.
 
 var todoList = {
     todos: [],
