@@ -1,7 +1,9 @@
-// V8 - Escape from the console - Requirements:
-// There should be an li element for every todo  //done!
-// Each li element should contain .todoText  //done!
-// Each li element should show completed  //done!
+// V8 - Click to Delete - Requirements:
+// There should be a way to create delete buttons.  //Done!
+// There should be a delete button for each todo.
+// Each li should have an ide that has the todo position.
+// Delete buttons should have access to the todo id.
+// Clicking delete should update todoList.todos and the DOM.
 
 var todoList = {
     todos: [],
@@ -95,5 +97,11 @@ var view = {
             todoLi.textContent = todoTextWithCompletion;
             todosUl.appendChild(todoLi);
         }
+    },
+    createDeleteButton: function () {
+        var deleteButton = document.createElement('button');
+        deleteButton.textContent = "Delete";
+        deleteButton.className = "deleteButton";
+        return deleteButton;
     }
 };
