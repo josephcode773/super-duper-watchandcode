@@ -226,7 +226,7 @@
       <workItem from="1479874554081" duration="14071000" />
       <workItem from="1479946013487" duration="40000" />
       <workItem from="1479946168238" duration="8000" />
-      <workItem from="1479946439621" duration="14484000" />
+      <workItem from="1479946439621" duration="14496000" />
     </task>
     <task id="LOCAL-00001" summary="second commit!!">
       <created>1479937489481</created>
@@ -326,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479967683537</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="// V11 - Destroy all for loops - Requirements:&#10;// 2 - view.displayTodos should use forEach.  //done!">
+      <created>1479968375513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1479968375513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31082000" />
+    <option name="totallyTimeSpent" value="31094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="-5" width="847" height="741" extended-state="0" />
